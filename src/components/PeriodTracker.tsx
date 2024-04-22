@@ -18,11 +18,8 @@ const PeriodTracker: React.FC<{}> = (): React.ReactNode =>{
   const [openModalTwo, setOpenModalTwo] = useState(false);
   const [periodDate, setPeriodDate] = useState<Date | null>(null);
   const [periodDuration, setPeriodDuration] = useState<number | null>(null); // Set initial state to null
-  const [periodDurationSet, setPeriodDurationSet] = useState<boolean>(false);
   const [periodRecords, setPeriodRecords] = useState<PeriodRecord[]>([]); 
-  const [forceUpdate, setForceUpdate] = useState<number>(0);
   const [selectedRecord, setSelectedRecord] = useState<PeriodRecord | null>(null);
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [modalOptions, setModalOptions] = useState<string[]>([]);
 
 
