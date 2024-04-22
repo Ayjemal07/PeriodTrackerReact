@@ -1,0 +1,64 @@
+.react-calendar .highlight-dates {
+  background-color: red !important;
+  color: white !important;
+}
+
+
+.circle-content {
+  display: flex;
+  flex-direction: column; /* Display children in a column layout */
+  justify-content: center;
+  align-items: center;
+  width: 400px; /* Circle size */
+  height: 400px; /* Circle size */
+  border-radius: 50%; /* Makes it circular */
+  background-color: #f09; /* Background color */
+   /* Text color */
+  font-size: 16px; /* Adjust based on your content */
+  text-align: center;
+  padding: 20px; /* For text wrapping in smaller circles, adjust as needed */
+  margin: auto; /* Center the circle in the container if the container's size is larger */
+}
+
+
+.phase {
+  font-size: 24px; /* Larger font size for the phase */
+  color: white;
+  font-weight: bold;
+
+}
+
+.info {
+  font-size: 16px; /* Smaller font size for the info */
+  color:black;
+
+}
+
+
+.custom-modal {
+  position: absolute;
+  top: 50%; /* Position at the center vertically */
+  left: 50%; /* Position at the center horizontally */
+  transform: translate(-50%, -50%); /* Center the modal */
+  width: 200px; /* Adjust width as needed */
+  max-height: 200px; /* Adjust max height as needed */
+  border: 1px solid rgb(46, 35, 35);
+  background: rgb(255, 255, 255); /* Change background color */
+
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.custom-modal .modal-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between options */
+}
+
+.custom-modal button {
+  background-color: #bbc2c9;
+  border: none; /* Remove button border */
+  padding: 8px 12px; /* Add padding to buttons */
+}
+
